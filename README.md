@@ -59,8 +59,10 @@ This project is a password reset system that allows users to reset their passwor
    ```bash
    npm start
    ```
+   npm run dev
 ## Usage
 1. Register a new user by filling out the registration form.
 2. Log in with your credentials.
 3. If you forget your password, click on the "Forgot Password" link and follow the instructions to reset your password.
+requesting for reseting password "request-reset".....reset the password using "password-reset"
 4. After resetting your password, you can log in with your new password.
