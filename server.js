@@ -11,9 +11,13 @@ const app = express();
 
 
 app.use(cors({
-  origin:'https://dynamic-nasturtium-e783a2.netlify.app/',
+  origin: [
+    'http://localhost:3000',
+    'https://dynamic-nasturtium-e783a2.netlify.app'
+  ],
   credentials: true,
 }));
+
 
 
 app.use(cookieParser());
