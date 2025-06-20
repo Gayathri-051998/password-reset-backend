@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://classy-crisp-322c96.netlify.app'
+    'https://fascinating-gumdrop-a1a555.netlify.app'
     
   ],
   credentials: true,
