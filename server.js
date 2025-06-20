@@ -13,7 +13,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://dynamic-nasturtium-e783a2.netlify.app'
+    'https://classy-crisp-322c96.netlify.app'
+    
   ],
   credentials: true,
 }));
